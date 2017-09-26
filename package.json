@@ -1,0 +1,27 @@
+{
+  "name": "mynodejs",
+  "version": "1.0.0",
+  "description": "To demo devloper NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truonghaibg/mynodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "haitruong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truonghaibg/mynodejs/issues"
+  },
+  "homepage": "https://github.com/truonghaibg/mynodejs#readme",
+  "dependencies": {
+    "mysql": "^2.14.1",
+    "node-persist": "^2.1.0",
+    "yargs": "^9.0.1"
+  }
+}
