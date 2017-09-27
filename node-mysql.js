@@ -4,12 +4,12 @@ var connection = mysql.createConnection({
 	host		: 	'localhost',
 	user		: 	'root',
 	password	:	'',
-	database	: 	'test'
+	database	: 	'cafina_db'
 });
 
 connection.connect();
-connection.query('select 1+1 as solution', function(error, results, fields) {
+connection.query('select count(*) as num from banner', function(error, results, fields) {
 	if (error) throw error;
-	console.log('result: ', results[0].solution);
+	console.log('result: ', results[0].num);
 });
 connection.end();
